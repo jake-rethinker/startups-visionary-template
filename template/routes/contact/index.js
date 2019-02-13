@@ -3,24 +3,25 @@ import style from './style';
 
 
 
-export default class Team extends Component {
+export default class Contact extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
 		};
 	}
 
-
-
 	render() {
 		return (
 			<div className={style.home}>
-                <form action="https://formspree.io/your@email.com" method="POST">
-                    <input type="text" name="name">
-                        <input type="email" name="_replyto">
+					<div class={style.maincontent}>
+						{/*Change this email to your own email*/}
+                        <form action="https://formspree.io/test@gmail.com" method="POST">
+                            <input type="text" name="name" placeholder="Name" />
+							<input type="email" name="_replyto" placeholder="Email"/>
 							<input type="submit" value="Send" />
-                </form>
+                        </form>
+					</div>
 			</div>
-	);
+		);
 	}
 }

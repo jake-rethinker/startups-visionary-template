@@ -79,30 +79,8 @@
     justify-content: center;
     align-items: center;
 }
-.homebtn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: white;
-    cursor: pointer;
-    text-decoration: none !important;
-}
-.teambtn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: white;
-    cursor: pointer;
-    text-decoration: none !important;
-}
-
-.contactbtn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: white;
-    cursor: pointer;
-    text-decoration: none !important;
+.maincontent {
+    margin-top: 82px;
 }
 
 

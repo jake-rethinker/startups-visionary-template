@@ -48,8 +48,6 @@ export default class Team extends Component {
 	render() {
 		return (
 			<div className={style.home}>
-                <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" />
 					<div class={style.cardholder}>
 						{ this.renderCards() }
 					</div>

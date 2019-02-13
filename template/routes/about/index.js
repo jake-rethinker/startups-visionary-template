@@ -3,7 +3,8 @@ import style from './style';
 
 
 
-export default class Home extends Component {
+
+export default class About extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -13,15 +14,12 @@ export default class Home extends Component {
 
 
 
-
-
 	render() {
 		return (
 			<div className={style.home}>
-				<div class={style.maincontent}>
-					<h1> Team Goals </h1>
-					<li> Our first is to do x y z</li>
-				</div>
+					<div class={style.cardholder}>
+						<h1> I feel good sometimes I don't </h1>
+					</div>
 			</div>
 		);
 	}

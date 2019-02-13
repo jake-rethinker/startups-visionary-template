@@ -28,16 +28,16 @@ class LinkCard extends Component {
                     <p class={style.streamertitle}> {this.props.title} </p>
                     <div class={style.container}>
                         <div class={style.platforms}>
-                            <a href={this.props.twitch} target="_blank">
+                            <a class={style.social} href={this.props.twitch} target="_blank">
                             <img src={Twitch} class={style.platform} />
                             </a>
-                            <a href={this.props.twitter} target="_blank">
+                            <a class={style.social} href={this.props.twitter} target="_blank">
                             <img src={Twitter} class={style.platform} />
                             </a>
-                            <a href={this.props.youtube} target="_blank">
+                            <a class={style.social} href={this.props.youtube} target="_blank">
                             <img src={YouTube} class={style.platform} />
                             </a>
-                            <a href={this.props.insta} target="_blank">
+                            <a class={style.social} href={this.props.insta} target="_blank">
                             <img src={Instagram} class={style.platform} />
                             </a>
                         </div>
